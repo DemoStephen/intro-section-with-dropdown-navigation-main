@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Epilogue';
+    src: url('./assets/font/Epilogue/Epilogue-VariableFont_wght.ttf');
+}
 :root{
     --almostWhite: hsl(0, 0%, 98%);
     --mediumGray: hsl(0, 0%, 41%);
@@ -10,9 +14,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Epilogue',sans-serif;
 }
+
 body{
-    
+    font-size: var(--fontSize);
+    background-color: var(--almostWhite);
+    min-height: 100vh;
+    padding: 2rem;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
