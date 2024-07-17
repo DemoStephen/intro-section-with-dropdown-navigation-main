@@ -23,6 +23,18 @@ body{
     min-height: 100vh;
     padding: 2rem;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.desktopContainer{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
