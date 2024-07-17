@@ -7,55 +7,54 @@
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 </head>
 <body>
-  <main>
-    <nav>
-      <div class="desktopContainer">
-        <img src="./assets/images/logo.svg" alt="logo">
-        <ul class="desktopNav">
+  <nav>
+    <div class="desktopContainer">
+      <img src="./assets/images/logo.svg" alt="logo">
+      <ul class="desktopNav">
+        <li>Features</li>
+        <li>Company</li>
+        <li>Careers</li>
+        <li>About</li>
+      </ul>
+    </div>
+    <div class="desktopCta">
+      <p>Login</p>
+      <button>Register</button>
+    </div>
+    <div class="mobileNavigation">
+      <img data-showSideBar src="./assets/images/icon-menu.svg" alt="icon-menu">
+      <div data-sideBar class="mobileSideBar d-none">
+        <img data-hideSideBar src="./assets/images/icon-close-menu.svg" alt="icon-close-menu" class="icon-close-menu">
+        <ul>
           <li>Features</li>
           <li>Company</li>
           <li>Careers</li>
           <li>About</li>
         </ul>
-      </div>
-      <div class="desktopCta">
         <p>Login</p>
         <button>Register</button>
       </div>
-      <div class="mobileNavigation">
-        <img src="./assets/images/logo.svg" alt="logo">
-        <img src="./assets/images/icon-menu.svg" alt="icon-menu">
-        <div class="mobileSideBar d-none">
-          <img src="./assets/images/icon-close-menu.svg" alt="icon-close-menu">
-          <ul>
-            <li>Features</li>
-            <li>Company</li>
-            <li>Careers</li>
-            <li>About</li>
-          </ul>
-          <p>Login</p>
-          <button>Register</button>
-        </div>
-      </div>
-    </nav>
+    </div>
+  </nav>
+  <main>
     <header>
-      <section>
-        <h1>Make remote work</h1>
-        <p>
-          Get your team in sync, no matter your location. Streamline processes,
-          create team rituals, and watch productivity soar.
-        </p>
-        <button>Learn more</button>
-        <div>
-          <img src="./assets/images/client-databiz.svg" alt="client-databiz">
-          <img src="./assets/images/client-audiophile.svg" alt="client-audiophile">
-          <img src="./assets/images/client-meet.svg" alt="client-meet">
-          <img src="./assets/images/client-maker.svg" alt="client-maker">
-        </div>
-      </section>
-      <section>
-      </section>
+      <h1>Make remote work</h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <button>Learn more</button>
+      <div>
+        <img src="./assets/images/client-databiz.svg" alt="client-databiz">
+        <img src="./assets/images/client-audiophile.svg" alt="client-audiophile">
+        <img src="./assets/images/client-meet.svg" alt="client-meet">
+        <img src="./assets/images/client-maker.svg" alt="client-maker">
+      </div>
     </header>
+    <section>
+      <img src="./assets/images/image-hero-desktop.png" alt="image-hero-desktop" class="desktopavatar">
+      <img src="./assets/images/image-hero-mobile.png" alt="image-hero-mobile" class="mobileavatar">
+    </section>
   </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
