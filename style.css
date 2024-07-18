@@ -38,12 +38,46 @@ nav{
     gap: 5rem;
     list-style: none;
 }
+.desktopDropdown, .desktopDropdown span{
+    position: relative;
+}
+.desktopDropdown{
+    padding: 1rem 0.5rem;
+    cursor: pointer;
+}
 
+.desktopDropdown ul{
+    position: absolute;
+    display: none;
+    list-style: none;
+    right: 0;
+    width:max-content;
+    padding: 0.75rem;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.481);
+    border-radius: 0.75rem;
+    margin: 0.85rem 0;
+}
+.desktopDropdown:hover ul{
+    display: block;
+}
+.desktopDropdown ul li{
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+}
+.desktopDropdown ul li+li{
+    margin-top: 0.05rem;
+}
+.desktopDropdown ul li img{
+    width:fit-content;
+}
 .desktopCta, .desktopNav{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 .desktopCta button{
     padding: 0.825rem;
