@@ -23,9 +23,9 @@
         <li class="desktopDropdown">
           <span>Company  <img src="./assets/images/icon-arrow-down.svg" alt="icon-arrow-down"></span>
           <ul>
-            <li>History</li>
-            <li>Our Team</li>
-            <li>Blog</li>
+            <li><span>History</span></li>
+            <li><span>Our Team</span></li>
+            <li><span>Blog</span></li>
           </ul>
         </li>
         <li class="desktopDropdown">Careers</li>
@@ -40,13 +40,22 @@
       <img data-showSideBar src="./assets/images/icon-menu.svg" alt="icon-menu">
       <div data-sideBar class="mobileSideBar d-none">
         <img data-hideSideBar src="./assets/images/icon-close-menu.svg" alt="icon-close-menu" class="icon-close-menu">
-        <ul>
-          <li>Features</li>
-          <li>Company</li>
-          <li>Careers</li>
-          <li>About</li>
-        </ul>
-        <p>Login</p>
+        <details>
+          <summary>Features</summary>
+          <p class="firstChild"><img src="./assets/images/icon-todo.svg" alt="icon-todo">Todo List</p>
+          <p><img src="./assets/images/icon-calendar.svg" alt="icon-calendar">Calender</p>
+          <p><img src="./assets/images/icon-reminders.svg" alt="icon-reminders">Reminders</p>
+          <p><img src="./assets/images/icon-planning.svg" alt="icon-planning">Planning</p>
+        </details>
+        <details>
+          <summary>Company</summary>
+          <p class="firstChild">History</p>
+          <p>Our Team</p>
+          <p>Blog</p>
+        </details>
+        <details><summary>Careers</summary></details>
+        <details><summary>About</summary></details>
+        <p class="login">Login</p>
         <button>Register</button>
       </div>
     </div>
@@ -75,6 +84,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Adewale Stephen</a>.
   </div>
+  
   <script src="main.js"></script>
 </body>
 </html>
